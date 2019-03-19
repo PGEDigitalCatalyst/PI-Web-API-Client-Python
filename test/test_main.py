@@ -25,8 +25,10 @@ from osisoft.pidevclub.piwebapi.models import PIAnalysis, PIItemsStreamValues, P
 from osisoft.pidevclub.piwebapi.pi_web_api_client import PIWebApiClient
 from osisoft.pidevclub.piwebapi.rest import ApiException
 
+import pytest
 
 
+@pytest.mark.skip(reason="no way of currently testing this")
 class TestMain(unittest.TestCase):
 
     def getPIWebApiClient(self):

@@ -1,5 +1,5 @@
+# runtime dependencies
 pandas >= 0.20.3
-six == 1.8.0
 setuptools >= 21.0.0
 requests >= 2.18.4
 requests-kerberos >= 0.12.0
@@ -15,7 +15,15 @@ pycparser==2.18
 python-dateutil==2.7.3
 pytz==2018.4
 requests-ntlm==1.1.0
-six==1.8.0
+six>=1.10.0
 urllib3==1.22
-wincertstore==0.2
-winkerberos==0.7.0
+
+# test dependencies
+pytest
+pytest-cov
+mock
+parameterized
+flake8
+
+# deploy dependencies
+twine

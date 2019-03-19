@@ -18,7 +18,7 @@
 from setuptools import setup, find_packages
 
 NAME = "osisoft.pidevclub.piwebapi"
-VERSION = "1.1.4"
+VERSION = "1.1.5"
 # To install the library, run the following
 #
 # python setup.py install

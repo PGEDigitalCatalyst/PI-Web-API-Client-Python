@@ -1,4 +1,4 @@
-FROM continuumio/miniconda3:latest
+FROM python:3
 
 WORKDIR /app
 # the CombinedCA.cer stuff will go away with artifactory

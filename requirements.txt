@@ -17,6 +17,7 @@ pytz==2018.4
 requests-ntlm==1.1.0
 six>=1.10.0
 urllib3==1.22
+requests-ntlm==1.1.0
 
 # test dependencies
 pytest
